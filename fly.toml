@@ -5,8 +5,11 @@ primary_region = 'ams'
 
 [build]
 
+[experimental]
+  cmd = ["--admin-token", "mysecret123"]  # Dashboard ဝင်ဖို့ သုံးမယ့် Password ကို ဒီမှာ တိုက်ရိုက်သတ်မှတ်ပေးလိုက်တာဖြစ်ပါတယ်
+
 [http_service]
-  internal_port = 8787     # Portkey အစစ်အမှန် run နေတဲ့ 8787 သို့ ပြောင်းလိုက်ပါ
+  internal_port = 8787
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
@@ -17,6 +20,3 @@ primary_region = 'ams'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
-# အပေါ်က code တွေရဲ့ အောက်ဆုံးမှာ ထည့်ရန်
-[env]
-  DISABLE_ADMIN_TOKEN = "true"
