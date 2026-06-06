@@ -19,5 +19,4 @@ primary_region = 'ams'
   cpus = 1
 # အပေါ်က code တွေရဲ့ အောက်ဆုံးမှာ ထည့်ရန်
 [env]
-  PORTKEY_ADMIN_TOKEN = "mysecret123"
-  admin_token = "mysecret123"
+  DISABLE_ADMIN_TOKEN = "true"
