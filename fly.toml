@@ -17,3 +17,7 @@ primary_region = 'ams'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
+# အပေါ်က code တွေရဲ့ အောက်ဆုံးမှာ ထည့်ရန်
+[env]
+  PORTKEY_ADMIN_TOKEN = "mysecret123"
+  admin_token = "mysecret123"
